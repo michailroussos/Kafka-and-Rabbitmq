@@ -16,4 +16,4 @@ docker exec -it <kafka-container-id> /opt/kafka/bin/kafka-console-consumer.sh --
 docker exec -it 88ae4404a969 /opt/kafka/bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic an-intresting-topic --from-beginning
 
 #we can run whatever experiment we want and then stop the containers with
-docker-compose down
+docker compose down
